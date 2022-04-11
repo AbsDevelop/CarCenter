@@ -1,0 +1,37 @@
+body{
+    background-image: linear-gradient(#ffffff, #a6b8d33a);
+}
+
+.Space{
+    margin-right: 25px;
+}
+
+.v{
+    color: red;
+}
+
+.a{
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+
+.b{
+    border: 1px solid black;
+}
+
+.circle{
+    border: 3px solid rgb(89, 10, 153);
+    border-radius: 70px;
+}
+
+.gr{
+    color: #808080;
+}
+
+.col, .row{
+    bsorder: 1px solid black;
+}
+
+.imgHome{
+    padding-top: 3px;
+}

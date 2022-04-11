@@ -1,0 +1,18 @@
+ERROR - 2022-03-30 11:55:39 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+ERROR - 2022-03-30 11:57:40 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+ERROR - 2022-03-30 11:58:15 --> Error connecting to the database: Unknown database 'exemplo'
+ERROR - 2022-03-30 12:31:07 --> Unknown column 'profissão' in 'field list'
+ERROR - 2022-03-30 12:31:07 --> Unknown column 'profissão' in 'field list'
+ERROR - 2022-03-30 12:31:07 --> Unknown column 'profissão' in 'field list'
+ERROR - 2022-03-30 12:31:07 --> Unknown column 'profissão' in 'field list'
+ERROR - 2022-03-30 12:31:07 --> Unknown column 'profissão' in 'field list'
+ERROR - 2022-03-30 12:31:42 --> Unknown column 'profissão' in 'field list'
+ERROR - 2022-03-30 12:31:42 --> Unknown column 'profissão' in 'field list'
+ERROR - 2022-03-30 12:31:42 --> Unknown column 'profissão' in 'field list'
+ERROR - 2022-03-30 12:31:42 --> Unknown column 'profissão' in 'field list'
+ERROR - 2022-03-30 12:31:42 --> Unknown column 'profissão' in 'field list'
+ERROR - 2022-03-30 12:32:15 --> Unknown column 'profissão' in 'field list'
+ERROR - 2022-03-30 12:32:15 --> Unknown column 'profissão' in 'field list'
+ERROR - 2022-03-30 12:32:15 --> Unknown column 'profissão' in 'field list'
+ERROR - 2022-03-30 12:32:15 --> Unknown column 'profissão' in 'field list'
+ERROR - 2022-03-30 12:32:15 --> Unknown column 'profissão' in 'field list'

@@ -3,14 +3,14 @@
         <div class="container">
             <footer class="py-3 my-4">
                 <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Privacy and Terms</a></li>                
+                    <li class="nav-item"><a href="home" class="nav-link px-2 text-muted">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link disabled px-2 text-muted">Produtos</a></li>
+                    <li class="nav-item"><a href="contato" class="nav-link px-2 text-muted">Contato</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link disabled px-2 text-muted">FAQs</a></li>
+                    <li class="nav-item"><a href="nossaHistoria" class="nav-link px-2 text-muted">Nossa História</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link disabled px-2 text-muted">Termos de Privacidade</a></li>                
                 </ul>
-                <p class="text-center text-muted">&copy; 2017 - 2021 Company, Inc</p>
+                <p class="text-center text-muted"><i class="fa-solid fa-copyright"></i> 2017 - 2022 CarCenter, Inc</p>
             </footer>
         </div>
 

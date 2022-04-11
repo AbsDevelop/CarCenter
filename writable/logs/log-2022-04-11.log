@@ -1,0 +1,50 @@
+CRITICAL - 2022-04-11 12:43:44 --> Invalid file: <i class="fa-solid fa-car-rear v"><.php
+#0 C:\wamp64\www\CodeIgniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('<i class="fa-so...')
+#1 C:\wamp64\www\CodeIgniter\system\Common.php(1089): CodeIgniter\View\View->render('<i class="fa-so...', Array, true)
+#2 C:\wamp64\www\CodeIgniter\app\Controllers\Home.php(19): view('<i class="fa-so...')
+#3 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(825): App\Controllers\Home->page('<i class="fa-so...', 'i>')
+#4 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#8 {main}
+CRITICAL - 2022-04-11 13:02:44 --> Invalid file: dist.php
+#0 C:\wamp64\www\CodeIgniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dist.php')
+#1 C:\wamp64\www\CodeIgniter\system\Common.php(1089): CodeIgniter\View\View->render('dist', Array, true)
+#2 C:\wamp64\www\CodeIgniter\app\Controllers\Home.php(19): view('dist')
+#3 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(825): App\Controllers\Home->page('dist', 'css', 'bootstrap.min.c...')
+#4 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#8 {main}
+CRITICAL - 2022-04-11 13:02:44 --> Invalid file: signin.css
+#0 C:\wamp64\www\CodeIgniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signin.css')
+#1 C:\wamp64\www\CodeIgniter\system\Common.php(1089): CodeIgniter\View\View->render('signin.css', Array, true)
+#2 C:\wamp64\www\CodeIgniter\app\Controllers\Home.php(19): view('signin.css')
+#3 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(825): App\Controllers\Home->page('signin.css')
+#4 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#8 {main}
+CRITICAL - 2022-04-11 13:03:34 --> Invalid file: dist.php
+#0 C:\wamp64\www\CodeIgniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dist.php')
+#1 C:\wamp64\www\CodeIgniter\system\Common.php(1089): CodeIgniter\View\View->render('dist', Array, true)
+#2 C:\wamp64\www\CodeIgniter\app\Controllers\Home.php(19): view('dist')
+#3 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(825): App\Controllers\Home->page('dist', 'css', 'bootstrap.min.c...')
+#4 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#8 {main}
+CRITICAL - 2022-04-11 13:03:34 --> Invalid file: signin.css
+#0 C:\wamp64\www\CodeIgniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signin.css')
+#1 C:\wamp64\www\CodeIgniter\system\Common.php(1089): CodeIgniter\View\View->render('signin.css', Array, true)
+#2 C:\wamp64\www\CodeIgniter\app\Controllers\Home.php(19): view('signin.css')
+#3 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(825): App\Controllers\Home->page('signin.css')
+#4 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#8 {main}
