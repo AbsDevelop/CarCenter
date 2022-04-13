@@ -28,10 +28,31 @@ body{
     color: #808080;
 }
 
-.col, .row{
-    bsorder: 1px solid black;
-}
-
 .imgHome{
     padding-top: 3px;
+}
+
+.p{
+    padding-top: 200px;
+    padding-bottom: 215px;
+}
+  
+svg {
+    position: absolute;
+    left: 94.6vh;
+    top: 26.5vw;
+    fill: none;
+    stroke: rgb(68, 80, 90);
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+  
+.btnS:hover {
+    transition: 1s ease-in-out;
+    background: #6c757d;
+}
+  
+.btnS:hover svg {
+    stroke-dashoffset: -480;
 }

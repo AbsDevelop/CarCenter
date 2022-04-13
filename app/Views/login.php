@@ -1,4 +1,4 @@
-  <div class="container text-center">
+  <div class="container text-center p">
     <div class="row">
       <form class="form-signin">
         <h1><i class="fa-solid fa-car-rear"></i></h1>
@@ -7,7 +7,13 @@
         <br>
         <input type="password" id="Senha" class="form-control" placeholder="Senha" required>
         <br>
-        <button class="btn btn-lg btn-outline-secondary btn-block" type="submit">Login</button>
+        <button class="btn btn-lg btn-outline-secondary btn-block btnS">
+          <svg width="85px" height="50px" viewBox="0 0 180 60" class="border">
+            <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+            <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+          </svg>
+          <span>Login</span>
+        </button>  
       </form>
     </div>  
   </div>

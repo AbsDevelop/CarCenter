@@ -20,9 +20,9 @@ class Home extends BaseController
         echo view('Templates/footer');
     }
 
-    public function pessoa()
+    public function pessoas()
     {
-        $model = new PessoaModel();
+        $model = new PessoasModel();
 
         $data = [
             'title'=>'Pessoas',
