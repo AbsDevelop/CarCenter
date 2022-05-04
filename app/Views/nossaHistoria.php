@@ -3,7 +3,7 @@
 <!-- Start Chefes -->
 <div class="row">
 <div class="col-lg-4">
-    <img src="https://accelere.se/wp-content/uploads/2019/07/Artboard-1@150x-500x500.png" class="circle" width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Noun_Project_people_icon_3376085.svg/1024px-Noun_Project_people_icon_3376085.svg.png" width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
 
     <h2>Chefe Financeiro</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla aliquet enim tortor at. Erat nam at lectus urna duis convallis convallis tellus.</p>
@@ -11,7 +11,7 @@
   </div>
 
   <div class="col-lg-4">
-    <img src="https://accelere.se/wp-content/uploads/2019/07/Artboard-1@150x-500x500.png" class="circle" width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Noun_Project_people_icon_3376085.svg/1024px-Noun_Project_people_icon_3376085.svg.png" width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
     
     <h2>Chefe Executivo</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla aliquet enim tortor at. Erat nam at lectus urna duis convallis convallis tellus.</p>
@@ -19,7 +19,7 @@
   </div>
 
   <div class="col-lg-4">
-    <img src="https://accelere.se/wp-content/uploads/2019/07/Artboard-1@150x-500x500.png" class="circle" width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Noun_Project_people_icon_3376085.svg/1024px-Noun_Project_people_icon_3376085.svg.png" width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
 
     <h2>Chefe de Operações</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla aliquet enim tortor at. Erat nam at lectus urna duis convallis convallis tellus.</p>
@@ -37,7 +37,7 @@
     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla aliquet enim tortor at. Erat nam at lectus urna duis convallis convallis tellus. Amet nisl purus in mollis nunc sed id semper. Penatibus et magnis dis parturient montes nascetur ridiculus mus mauris. Ornare massa eget egestas purus viverra accumsan in.</p>
   </div>
   <div class="col-md-5">
-    <img src="https://accelere.se/wp-content/uploads/2019/07/Artboard-1@150x-500x500.png" width="500" height="500" alt="...">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Noun_Project_people_icon_3376085.svg/1024px-Noun_Project_people_icon_3376085.svg.png" width="500" height="500" alt="...">
   </div>
 </div>
 
@@ -49,7 +49,7 @@
     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla aliquet enim tortor at. Erat nam at lectus urna duis convallis convallis tellus. Amet nisl purus in mollis nunc sed id semper. Penatibus et magnis dis parturient montes nascetur ridiculus mus mauris. Ornare massa eget egestas purus viverra accumsan in.</p>
   </div>
   <div class="col-md-5 order-md-1">
-    <img src="https://accelere.se/wp-content/uploads/2019/07/Artboard-1@150x-500x500.png" width="500" height="500" alt="...">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Noun_Project_people_icon_3376085.svg/1024px-Noun_Project_people_icon_3376085.svg.png" width="500" height="500" alt="...">
   </div>
 </div>
 
@@ -61,7 +61,7 @@
     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla aliquet enim tortor at. Erat nam at lectus urna duis convallis convallis tellus. Amet nisl purus in mollis nunc sed id semper. Penatibus et magnis dis parturient montes nascetur ridiculus mus mauris. Ornare massa eget egestas purus viverra accumsan in.</p>
   </div>
   <div class="col-md-5">
-    <img src="https://accelere.se/wp-content/uploads/2019/07/Artboard-1@150x-500x500.png" width="500" height="500" alt="...">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Noun_Project_people_icon_3376085.svg/1024px-Noun_Project_people_icon_3376085.svg.png" width="500" height="500" alt="...">
   </div>
 </div>
 <!-- End Textos -->

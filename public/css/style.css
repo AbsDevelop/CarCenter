@@ -19,11 +19,6 @@ body{
     border: 1px solid black;
 }
 
-.circle{
-    border: 3px solid rgb(89, 10, 153);
-    border-radius: 70px;
-}
-
 .gr{
     color: #808080;
 }
@@ -37,22 +32,6 @@ body{
     padding-bottom: 215px;
 }
   
-svg {
-    position: absolute;
-    left: 94.6vh;
-    top: 26.5vw;
-    fill: none;
-    stroke: rgb(68, 80, 90);
-    stroke-dasharray: 150 480;
-    stroke-dashoffset: 150;
-    transition: 1s ease-in-out;
-}
-  
-.btnS:hover {
-    transition: 1s ease-in-out;
-    background: #6c757d;
-}
-  
-.btnS:hover svg {
-    stroke-dashoffset: -480;
+.center{
+    text-align: center;
 }

@@ -10,7 +10,7 @@
                     <li class="nav-item"><a href="nossaHistoria" class="nav-link px-2 text-muted">Nossa História</a></li>
                     <li class="nav-item"><a href="#" class="nav-link disabled px-2 text-muted">Termos de Privacidade</a></li>                
                 </ul>
-                <p class="text-center text-muted"><i class="fa-solid fa-copyright"></i> 2017 - 2022 CarCenter, Inc</p>
+                <p class="text-center text-muted"><i class="fa-solid fa-copyright"></i> 2017 - 2022 • CarCenter, Inc.</p>
             </footer>
         </div>
 

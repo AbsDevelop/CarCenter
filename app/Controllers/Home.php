@@ -30,7 +30,29 @@ class Home extends BaseController
         ];
 
         echo view('Templates/header');
-        echo view('pessoa', $data);
+        echo view('pessoas', $data);
         echo view('Templates/footer');
+    }
+
+    public function cadastrar()
+    {
+        echo view('Templates/header');
+        echo view('cadastro-pessoas');
+        echo view('Templates/footer');
+    }
+
+    public function inscrever()
+    {
+        $model = new PessoasModel();
+
+        $model->save([
+            'id' => $this->request->getVar('id'),
+            'nome' => $this->request->getVar('nome'),
+            'profissao' => $this->request->getVar('profissao'),
+            'idade' => $this->request->getVar('idade')
+        ]);
+
+        return redirect('Pessoas');
+
     }
 }

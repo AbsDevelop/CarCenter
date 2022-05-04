@@ -93,12 +93,10 @@
             <div class="col-10">
                 <h4>Cadastre seu carro!</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget dui pretium, vehicula elit id, pharetra mauris. Donec fermentum egestas arcu, in consectetur nisi pretium vitae. Nulla cursus laoreet ultrices. Morbi non ex lorem. Integer iaculis, turpis ac sagittis lacinia, diam nisi faucibus massa.</p>                
-                <button class="btn btn-outline-secondary" href="login">Cadastrar</button>
+                <a class="btn btn-outline-secondary" href="login">Cadastrar</a>
             </div>
         </div>
 
 
     </div>
     <!-- Fim de Conteúdo -->
-    
-
