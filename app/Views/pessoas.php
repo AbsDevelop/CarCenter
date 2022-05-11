@@ -9,6 +9,8 @@
                     <th scope="col">Nome</th>
                     <th scope="col">Profissão</th>
                     <th scope="col">Idade</th>
+                    <th scope="col">Editar</th>
+                    <th scope="col">Apagar</th>
                 </tr>
             </thead>
 
@@ -22,6 +24,8 @@
                 <td><?=  $pessoa_item['nome']  ?></td>
                 <td><?=  $pessoa_item['profissao']  ?></td>
                 <td><?=  $pessoa_item['idade']  ?></td>
+                <td> <a href="" class="btn btn-warning"><i class="fa-solid fa-pen-circle"></i></a> </td>
+                <td> <a href="excluir/<?=$pessoa_item['id']?>" class="btn btn-danger"><i class="fa-solid fa-circle-trash"></i></a> </td>
             </tr>
 
             <?php
