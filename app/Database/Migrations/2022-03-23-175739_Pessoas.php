@@ -18,7 +18,7 @@ class Pessoas extends Migration
                 'constraint'=>100
             ],
             'profissao'=>[
-                'type'=>'int',
+                'type'=>'varchar',
                 'constraint'=>100
             ],
             'idade'=>[

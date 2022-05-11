@@ -24,8 +24,8 @@
                 <td><?=  $pessoa_item['nome']  ?></td>
                 <td><?=  $pessoa_item['profissao']  ?></td>
                 <td><?=  $pessoa_item['idade']  ?></td>
-                <td> <a href="" class="btn btn-warning"><i class="fa-solid fa-pen-circle"></i></a> </td>
-                <td> <a href="excluir/<?=$pessoa_item['id']?>" class="btn btn-danger"><i class="fa-solid fa-circle-trash"></i></a> </td>
+                <td> <a href="editar/<?=$pessoa_item['id']?>" class="btn btn-warning"><i class="fa-solid fa-pen-to-square"></i></a> </td>
+                <td> <a href="excluir/<?=$pessoa_item['id']?>" class="btn btn-danger"><i class="fa-solid fa-trash"></i></a> </td>
             </tr>
 
             <?php

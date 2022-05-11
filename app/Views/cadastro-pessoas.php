@@ -10,17 +10,18 @@
         <div class="form-group">
             <div class="row">
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="Nome" name="nome">
+                    <input type="text" class="form-control" placeholder="Nome" name="nome" value="<?= isset($pessoa['nome']) ? $pessoa['nome'] : "" ?>">
                 </div>
             </div>
             <br>
             <div class="row">
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="Profissão" name="profissao">
+                    <input type="text" class="form-control" placeholder="Profissão" name="profissao" value="<?= isset($pessoa['profissao']) ? $pessoa['profissao'] : "" ?>">
                 </div>
                 <div class="col">
-                    <input type="number" class="form-control" placeholder="Idade" name="idade">
+                    <input type="number" class="form-control" placeholder="Idade" name="idade" value="<?= isset($pessoa['idade']) ? $pessoa['idade'] : "" ?>">
                 </div>
+                <input type="hidden" name="id" value="<?= isset($pessoa['id']) ? $pessoa['id'] : "" ?>">
             </div>      
         </div><br>
         <div class="d-grid gap-2 col-6 mx-auto">
