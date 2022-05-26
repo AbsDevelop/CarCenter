@@ -75,7 +75,7 @@ class Home extends BaseController
         echo view('Templates/header');
         echo view('cadastro-pessoas', $data);
         echo view('Templates/footer');
-        
-
     }
+
+    
 }

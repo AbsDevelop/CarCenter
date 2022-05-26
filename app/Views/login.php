@@ -9,6 +9,7 @@
             <br>
             <div class="d-grid gap-2 col-6 mx-auto">
               <button class="btn btn-outline-secondary">Enviar</button>
+              <a href="cadastro-pessoas" class="btn btn-outline-secondary">Criar conta</a>
             </div>
         </form>
     </div>  
