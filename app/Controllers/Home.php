@@ -4,8 +4,11 @@ namespace App\Controllers;
 
 use App\Models\UsuarioModel;
 
+use App\Models\CarroModel;
+
 class Home extends BaseController
 {
+    //Functions para Usuários
     public function index()
     {
         echo view('Templates/header');
@@ -34,14 +37,14 @@ class Home extends BaseController
         echo view('Templates/footer');
     }
 
-    public function cadastrar()
+    public function cadastrarU()
     {
         echo view('Templates/header');
         echo view('cadastro-usuarios');
         echo view('Templates/footer');
     }
 
-    public function inscrever()
+    public function inscreverU()
     {
         $model = new UsuarioModel();
 
@@ -56,7 +59,7 @@ class Home extends BaseController
 
     }
 
-    public function excluir($id = null)
+    public function excluirU($id = null)
     {
         $model = new UsuarioModel();
         $model->delete($id);
@@ -64,7 +67,7 @@ class Home extends BaseController
 
     }
 
-    public function editar($id = null)
+    public function editarU($id = null)
     {
         $model = new UsuarioModel();
 
@@ -74,6 +77,66 @@ class Home extends BaseController
 
         echo view('Templates/header');
         echo view('cadastro-usuarios', $data);
+        echo view('Templates/footer');
+    }
+
+    //Functions para Carros
+    public function carro()
+    {
+        $model = new CarroModel();
+
+        $data = [
+            'title'=>'Carros',
+            'carro'=>$model->getCarros() 
+        ];
+
+        echo view('Templates/header');
+        echo view('carro', $data);
+        echo view('Templates/footer');
+    }
+
+    public function cadastrarC()
+    {
+        echo view('Templates/header');
+        echo view('cadastro-carros');
+        echo view('Templates/footer');
+    }
+
+    public function inscreverC()
+    {
+        $model = new CarroModel();
+
+        $model->save([
+            'id'     => $this->request->getVar('id'),
+            'placa'  => $this->request->getVar('placa'),
+            'marca'  => $this->request->getVar('marca'),
+            'modelo' => $this->request->getVar('modelo'),
+            'cor'    => $this->request->getVar('cor'),
+            'obs' => $this->request->getVar('obs')
+        ]);
+
+        return redirect('carro');
+
+    }
+
+    public function excluirC($id = null)
+    {
+        $model = new UsuarioModel();
+        $model->delete($id);
+        return redirect('carro');
+
+    }
+
+    public function editarC($id = null)
+    {
+        $model = new UsuarioModel();
+
+        $data = [
+            'carro' => $model->getCarros($id)
+        ];
+
+        echo view('Templates/header');
+        echo view('cadastro-carros', $data);
         echo view('Templates/footer');
     }
 

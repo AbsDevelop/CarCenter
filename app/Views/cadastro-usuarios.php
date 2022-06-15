@@ -6,7 +6,7 @@
         </div>
     </div>
 
-    <form method="post" action="inscrever">
+    <form method="post" action="inscreverU">
         <div class="form-group">
             <div class="row">
                 <div class="col">

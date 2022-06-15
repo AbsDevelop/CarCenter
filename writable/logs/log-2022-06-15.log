@@ -107,3 +107,70 @@ CRITICAL - 2022-06-15 12:50:29 --> Undefined variable: title
 #8 C:\wamp64\www\CarCenter\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #9 C:\wamp64\www\CarCenter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
 #10 {main}
+CRITICAL - 2022-06-15 13:47:56 --> Class 'App\Controllers\CarroModel' not found
+#0 C:\wamp64\www\CarCenter\system\CodeIgniter.php(825): App\Controllers\Home->inscreverC()
+#1 C:\wamp64\www\CarCenter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\CarCenter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\CarCenter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\CarCenter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#5 {main}
+CRITICAL - 2022-06-15 13:49:29 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\CarCenter\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\CarCenter\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\CarCenter\app\Controllers\Home.php(118): redirect('carro')
+#3 C:\wamp64\www\CarCenter\system\CodeIgniter.php(825): App\Controllers\Home->inscreverC()
+#4 C:\wamp64\www\CarCenter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\CarCenter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\CarCenter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\CarCenter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#8 {main}
+CRITICAL - 2022-06-15 13:49:56 --> Invalid file: carro.php
+#0 C:\wamp64\www\CarCenter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('carro.php')
+#1 C:\wamp64\www\CarCenter\system\Common.php(1089): CodeIgniter\View\View->render('carro', Array, true)
+#2 C:\wamp64\www\CarCenter\app\Controllers\Home.php(94): view('carro', Array)
+#3 C:\wamp64\www\CarCenter\system\CodeIgniter.php(825): App\Controllers\Home->carro()
+#4 C:\wamp64\www\CarCenter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\CarCenter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\CarCenter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\CarCenter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#8 {main}
+CRITICAL - 2022-06-15 13:50:42 --> Invalid file: carro.php
+#0 C:\wamp64\www\CarCenter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('carro.php')
+#1 C:\wamp64\www\CarCenter\system\Common.php(1089): CodeIgniter\View\View->render('carro', Array, true)
+#2 C:\wamp64\www\CarCenter\app\Controllers\Home.php(22): view('carro')
+#3 C:\wamp64\www\CarCenter\system\CodeIgniter.php(825): App\Controllers\Home->page('carro')
+#4 C:\wamp64\www\CarCenter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\CarCenter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\CarCenter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\CarCenter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#8 {main}
+CRITICAL - 2022-06-15 13:51:08 --> Invalid file: carro.php
+#0 C:\wamp64\www\CarCenter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('carro.php')
+#1 C:\wamp64\www\CarCenter\system\Common.php(1089): CodeIgniter\View\View->render('carro', Array, true)
+#2 C:\wamp64\www\CarCenter\app\Controllers\Home.php(22): view('carro')
+#3 C:\wamp64\www\CarCenter\system\CodeIgniter.php(825): App\Controllers\Home->page('carro')
+#4 C:\wamp64\www\CarCenter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\CarCenter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\CarCenter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\CarCenter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#8 {main}
+CRITICAL - 2022-06-15 13:51:11 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\CarCenter\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\CarCenter\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\CarCenter\app\Controllers\Home.php(118): redirect('carro')
+#3 C:\wamp64\www\CarCenter\system\CodeIgniter.php(825): App\Controllers\Home->inscreverC()
+#4 C:\wamp64\www\CarCenter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\CarCenter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\CarCenter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\CarCenter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#8 {main}
+CRITICAL - 2022-06-15 13:52:19 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\CarCenter\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\CarCenter\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\CarCenter\app\Controllers\Home.php(118): redirect('carro')
+#3 C:\wamp64\www\CarCenter\system\CodeIgniter.php(825): App\Controllers\Home->inscreverC()
+#4 C:\wamp64\www\CarCenter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\CarCenter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\CarCenter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\CarCenter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#8 {main}
