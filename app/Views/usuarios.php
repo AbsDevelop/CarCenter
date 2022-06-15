@@ -1,9 +1,10 @@
 <div class="container p">
     <row>
-        <h1> <?=$title?> </h1>
+        <h1 style="text-align: center"> <?=$title?> </h1>
+        <h4 style="text-align: center"> Listagem de controle </h4>
 
-        <table class="table table-striped">
-            <thead>
+        <table class="table table-hover table-bordered">
+            <thead class="">
                 <tr>
                     <th scope="col"><i class="fa-solid fa-arrow-down-short-wide"></i></th>
                     <th scope="col">Nome</th>
@@ -15,23 +16,24 @@
             </thead>
 
             <?php
-            foreach($pessoas as $pessoa_item)
+            foreach($usuario as $usuario_item)
             {
             ?>
 
             <tr>
-                <th><?=  $pessoa_item['id']  ?></th>
-                <td><?=  $pessoa_item['nome']  ?></td>
-                <td><?=  $pessoa_item['profissao']  ?></td>
-                <td><?=  $pessoa_item['idade']  ?></td>
-                <td> <a href="editar/<?=$pessoa_item['id']?>" class="btn btn-warning"><i class="fa-solid fa-pen-to-square"></i></a> </td>
-                <td> <a href="excluir/<?=$pessoa_item['id']?>" class="btn btn-danger"><i class="fa-solid fa-trash"></i></a> </td>
+                <th><?=  $usuario_item['id']  ?></th>
+                <td><?=  $usuario_item['nome']  ?></td>
+                <td><?=  $usuario_item['profissao']  ?></td>
+                <td><?=  $usuario_item['idade']  ?></td>
+                <td> <a href="editar/<?=$usuario_item['id']?>" class="btn btn-warning"><i class="fa-solid fa-pen-to-square"></i></a> </td>
+                <td> <a href="excluir/<?=$usuario_item['id']?>" class="btn btn-danger"><i class="fa-solid fa-trash"></i></a> </td>
             </tr>
 
             <?php
             }
             ?>
 
+            <caption>Lista de funcionários cadastrados • CarCenter, Inc.</caption>
         </table>
     </row><br>
     <div class="row center">

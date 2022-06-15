@@ -37,7 +37,7 @@ $routes->match(['get','post'],'excluir/(:num)', 'Home::excluir/$1');
 $routes->match(['get','post'],'editar/(:num)', 'Home::editar/$1');
 $routes->match(['get','post'],'inscrever', 'Home::inscrever');
 $routes->match(['get','post'],'editar/inscrever', 'Home::inscrever');
-$routes->get('Pessoas', 'Home::pessoas');
+$routes->get('usuario', 'Home::usuario');
 $routes->get('(:any)', 'Home::page/$1');
 
 /*

@@ -13,19 +13,26 @@ class Carros extends Migration
                 'type'=>'int',
                 'auto_increment'=>true
             ],
-            'modelo'=>[
-                'type'=>'varchar',
-                'constraint'=>100
-            ],
-            'marca'=>[
-                'type'=>'varchar',
-                'constraint'=>100
-            ],
             'placa'=>[
                 'type'=>'varchar',
                 'constraint'=>7
             ], 
-
+            'marca'=>[
+                'type'=>'varchar',
+                'constraint'=>100
+            ],
+            'modelo'=>[
+                'type'=>'varchar',
+                'constraint'=>100
+            ],
+            'cor'=>[
+                'type'=>'varchar',
+                'constraint'=>100
+            ],
+            'obs'=>[
+                'type'=>'longtext'
+            ],            
+            
         ]);
         $this->forge->addKey('id', true);
         $this->forge->createTable('tb_carros');

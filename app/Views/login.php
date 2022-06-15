@@ -8,7 +8,7 @@
               <input type="password" id="Senha" class="form-control" placeholder="Senha" required>
             <br>
             <div class="d-grid gap-2 col-6 mx-auto">
-              <button class="btn btn-outline-secondary">Enviar</button>
+              <button class="btn btn-outline-secondary">Entrar</button>
               <a href="cadastro-pessoas" class="btn btn-outline-secondary">Criar conta</a>
             </div>
         </form>

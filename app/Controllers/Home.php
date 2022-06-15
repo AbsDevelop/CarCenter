@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use App\Models\PessoasModel;
+use App\Models\UsuarioModel;
 
 class Home extends BaseController
 {
@@ -20,60 +20,60 @@ class Home extends BaseController
         echo view('Templates/footer');
     }
 
-    public function pessoas()
+    public function usuario()
     {
-        $model = new PessoasModel();
+        $model = new UsuarioModel();
 
         $data = [
-            'title'=>'Pessoas',
-            'pessoas'=>$model->getPessoas() 
+            'title'=>'Usuários',
+            'usuario'=>$model->getUsuarios() 
         ];
 
         echo view('Templates/header');
-        echo view('pessoas', $data);
+        echo view('usuarios', $data);
         echo view('Templates/footer');
     }
 
     public function cadastrar()
     {
         echo view('Templates/header');
-        echo view('cadastro-pessoas');
+        echo view('cadastro-usuarios');
         echo view('Templates/footer');
     }
 
     public function inscrever()
     {
-        $model = new PessoasModel();
+        $model = new UsuarioModel();
 
         $model->save([
-            'id' => $this->request->getVar('id'),
-            'nome' => $this->request->getVar('nome'),
+            'id'        => $this->request->getVar('id'),
+            'nome'      => $this->request->getVar('nome'),
             'profissao' => $this->request->getVar('profissao'),
-            'idade' => $this->request->getVar('idade')
+            'idade'     => $this->request->getVar('idade')
         ]);
 
-        return redirect('Pessoas');
+        return redirect('usuario');
 
     }
 
     public function excluir($id = null)
     {
-        $model = new PessoasModel();
+        $model = new UsuarioModel();
         $model->delete($id);
-        return redirect('Pessoas');
+        return redirect('usuario');
 
     }
 
     public function editar($id = null)
     {
-        $model = new PessoasModel();
+        $model = new UsuarioModel();
 
         $data = [
-            'pessoa' => $model->getPessoa($id)
+            'usuario' => $model->getUsuario($id)
         ];
 
         echo view('Templates/header');
-        echo view('cadastro-pessoas', $data);
+        echo view('cadastro-usuarios', $data);
         echo view('Templates/footer');
     }
 

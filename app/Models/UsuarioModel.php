@@ -4,16 +4,16 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class PessoasModel extends Model{
-    protected $table = 'tb_Pessoas';
+class UsuarioModel extends Model{
+    protected $table = 'tb_usuarios';
     protected $primaryKey = 'id';
     protected $allowedFields = ['nome', 'profissao', 'idade'];
 
-    public function getPessoas(){
+    public function getUsuarios(){
         return $this->findAll();
     }
 
-    public function getPessoa($id){
+    public function getUsuario($id){
         return $this->asArray()->where(['id'=>$id])->first();
     }
 }
