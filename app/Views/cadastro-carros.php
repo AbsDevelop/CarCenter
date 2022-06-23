@@ -10,7 +10,7 @@
         <div class="form-group">
             <div class="row">
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="Modelo" name="modelo" value="<?= isset($carro['nome']) ? $carro['nome'] : "" ?>">
+                    <input type="text" class="form-control" placeholder="Modelo" name="modelo" value="<?= isset($carro['modelo']) ? $carro['modelo'] : "" ?>">
                 </div>
             </div>
             <br>

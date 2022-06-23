@@ -56,7 +56,6 @@ class Home extends BaseController
         ]);
 
         return redirect('usuario');
-
     }
 
     public function excluirU($id = null)
@@ -64,7 +63,6 @@ class Home extends BaseController
         $model = new UsuarioModel();
         $model->delete($id);
         return redirect('usuario');
-
     }
 
     public function editarU($id = null)
@@ -91,7 +89,7 @@ class Home extends BaseController
         ];
 
         echo view('Templates/header');
-        echo view('carro', $data);
+        echo view('carros', $data);
         echo view('Templates/footer');
     }
 
@@ -112,27 +110,25 @@ class Home extends BaseController
             'marca'  => $this->request->getVar('marca'),
             'modelo' => $this->request->getVar('modelo'),
             'cor'    => $this->request->getVar('cor'),
-            'obs' => $this->request->getVar('obs')
+            'obs'    => $this->request->getVar('obs')
         ]);
 
-        return redirect('carro');
-
+        return redirect('carros');
     }
 
     public function excluirC($id = null)
     {
-        $model = new UsuarioModel();
+        $model = new CarroModel();
         $model->delete($id);
-        return redirect('carro');
-
+        return redirect('carros');
     }
 
     public function editarC($id = null)
     {
-        $model = new UsuarioModel();
+        $model = new CarroModel();
 
         $data = [
-            'carro' => $model->getCarros($id)
+            'carro' => $model->getCarro($id)
         ];
 
         echo view('Templates/header');

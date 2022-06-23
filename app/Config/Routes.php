@@ -42,8 +42,8 @@ $routes->match(['get','post'],'cadastrarC', 'Home::cadastrarC');
 $routes->match(['get','post'],'excluirC/(:num)', 'Home::excluirC/$1');
 $routes->match(['get','post'],'editarC/(:num)', 'Home::editarC/$1');
 $routes->match(['get','post'],'inscreverC', 'Home::inscreverC');
-$routes->match(['get','post'],'editar/inscreverC', 'Home::inscreverC');
-$routes->get('carros', 'Home::carros');
+$routes->match(['get','post'],'editarC/inscreverC', 'Home::inscreverC');
+$routes->get('carros', 'Home::carro');
 $routes->get('(:any)', 'Home::page/$1');
 
 /*

@@ -21,12 +21,12 @@
             ?>
 
             <tr>
-                <th><?=  $usuario_item['id']  ?></th>
-                <td><?=  $usuario_item['nome']  ?></td>
-                <td><?=  $usuario_item['profissao']  ?></td>
-                <td><?=  $usuario_item['idade']  ?></td>
-                <td> <a href="editar/<?=$usuario_item['id']?>" class="btn btn-warning"><i class="fa-solid fa-pen-to-square"></i></a> </td>
-                <td> <a href="excluir/<?=$usuario_item['id']?>" class="btn btn-danger"><i class="fa-solid fa-trash"></i></a> </td>
+                <th><?=  $usuario_item['id']       ?></th>
+                <td><?=  $usuario_item['nome']     ?></td>
+                <td><?=  $usuario_item['profissao']?></td>
+                <td><?=  $usuario_item['idade']    ?></td>
+                <td> <a href="editarU/<?=$usuario_item['id']?>" class="btn btn-warning"><i class="fa-solid fa-pen-to-square"></i></a> </td>
+                <td> <a href="excluirU/<?=$usuario_item['id']?>" class="btn btn-danger"><i class="fa-solid fa-trash"></i></a> </td>
             </tr>
 
             <?php
@@ -40,7 +40,7 @@
         <div class="col">
                 <a href="home" class="btn btn-secondary btn-xl">Home</a>
                 
-                <a href="cadastro-pessoas" class="btn btn-secondary btn-xl">Cadastros</a>
+                <a href="cadastro-usuarios" class="btn btn-secondary btn-xl">Cadastros</a>
                 
                 <a href="login" class="btn btn-secondary btn-xl">Login</a>
             </div>
