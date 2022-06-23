@@ -40,7 +40,25 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="login">Login</a>
-                            </li>                       
+                            </li>       
+                            <?php
+                                $session = \Config\Services::session();
+
+                                if(($session)->get('log')){
+                            
+                            ?>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="cadastros">Cadastro</a>
+                            </li>                            
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="listas">Listas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="logout">Sair</a>
+                            </li> 
+                            <?php
+                                }
+                            ?>                 
                         </ul>
                         <form class="d-flex">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">

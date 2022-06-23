@@ -1,7 +1,7 @@
 <div class="container p">
     <div class="row">
         <div class="col">
-            <h1 class="center"><i class="fa-solid fa-car-rear"></i></h1>
+            <h1 class="center"><img src="<?=base_URL()?>/css/cars.png" width="55px" height="45px"></h1>
             <h2 class="center">Cadastro de Carros</h2>
         </div>
     </div>

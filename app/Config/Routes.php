@@ -32,12 +32,11 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::page');
+$routes->match(['get','post'],'logout', 'Home::logout');
 $routes->match(['get','post'],'cadastrarU', 'Home::cadastrarU');
+$routes->match(['get','post'],'log', 'Home::log');
+$routes->match(['get','post'],'login', 'Home::login');
 $routes->match(['get','post'],'excluirU/(:num)', 'Home::excluirU/$1');
-$routes->match(['get','post'],'editarU/(:num)', 'Home::editarU/$1');
-$routes->match(['get','post'],'inscreverU', 'Home::inscreverU');
-$routes->match(['get','post'],'editarU/inscreverU', 'Home::inscreverU');
-$routes->get('usuario', 'Home::usuario');
 $routes->match(['get','post'],'cadastrarC', 'Home::cadastrarC');
 $routes->match(['get','post'],'excluirC/(:num)', 'Home::excluirC/$1');
 $routes->match(['get','post'],'editarC/(:num)', 'Home::editarC/$1');

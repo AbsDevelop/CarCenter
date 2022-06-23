@@ -23,14 +23,58 @@ class Home extends BaseController
         echo view('Templates/footer');
     }
 
+    //Sessions
+
+    public function login()
+    {
+        echo view('Templates/header');
+        echo view('login');
+        echo view('Templates/footer');
+    }
+
+    public function log()
+    {
+        $model = new UsuarioModel();
+
+        $nome = $this->request->getVar('nome');
+        $senha = $this->request->getVar('senha');
+
+        $data['usuario'] = $model->userLogin($nome, $senha);
+        $data['session'] = \Config\Services::session();
+
+        if(empty($data['usuario'])){
+            return redirect('login');
+        }else{
+            $sessionData = [
+                'usuario' => $nome,
+                'log'     => TRUE
+            ];
+            $data['session']->set($sessionData);
+            return redirect('/');
+        }
+    }
+
+    public function logout(){
+        $data['session'] = \Config\Services::session();
+        $data['session']->destroy();
+        return redirect('login');
+    }
+
+    //Usuarios
+
     public function usuario()
     {
         $model = new UsuarioModel();
 
         $data = [
-            'title'=>'Usuários',
-            'usuario'=>$model->getUsuarios() 
+            'title'   => 'Usuários',
+            'usuario' => $model->getUsuarios(),
+            'session' => \Config\Services::session() 
         ];
+
+        if(!$data['session']->get('log')){
+            return redirect('login');
+        }
 
         echo view('Templates/header');
         echo view('usuarios', $data);
@@ -39,6 +83,12 @@ class Home extends BaseController
 
     public function cadastrarU()
     {
+        $data['session'] = \Config\Services::session();
+
+        if(!$data['session']->get('log')){
+            return redirect('login');
+        }
+
         echo view('Templates/header');
         echo view('cadastro-usuarios');
         echo view('Templates/footer');
@@ -47,6 +97,12 @@ class Home extends BaseController
     public function inscreverU()
     {
         $model = new UsuarioModel();
+
+        $data['session'] = \Config\Services::session();
+
+        if(!$data['session']->get('log')){
+            return redirect('login');
+        }
 
         $model->save([
             'id'        => $this->request->getVar('id'),
@@ -61,6 +117,13 @@ class Home extends BaseController
     public function excluirU($id = null)
     {
         $model = new UsuarioModel();
+
+        $data['session'] = \Config\Services::session();
+
+        if(!$data['session']->get('log')){
+            return redirect('login');
+        }
+
         $model->delete($id);
         return redirect('usuario');
     }
@@ -70,8 +133,13 @@ class Home extends BaseController
         $model = new UsuarioModel();
 
         $data = [
-            'usuario' => $model->getUsuario($id)
+            'usuario' => $model->getUsuario($id),
+            'session' => \Config\Services::session()
         ];
+
+        if(!$data['session']->get('log')){
+            return redirect('login');
+        }
 
         echo view('Templates/header');
         echo view('cadastro-usuarios', $data);

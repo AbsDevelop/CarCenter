@@ -1,8 +1,8 @@
 <div class="container p">
     <div class="row">
         <div class="col">
-            <h1 class="center"><i class="fa-solid fa-car-rear"></i></h1>
-            <h2 class="center">Cadastro de Pessoas</h2>
+            <h1 class="center"><i class="fa-solid fa-users"></i></h1>
+            <h2 class="center">Cadastro de Usuários</h2>
         </div>
     </div>
 

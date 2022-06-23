@@ -108,3 +108,153 @@ CRITICAL - 2022-06-23 06:31:01 --> Invalid file: cadastro-pessoas.php
 #6 C:\wamp64\www\CarCenter\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #7 C:\wamp64\www\CarCenter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
 #8 {main}
+CRITICAL - 2022-06-23 07:04:31 --> Invalid file: cadastro-pessoas.php
+#0 C:\wamp64\www\CarCenter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cadastro-pessoa...')
+#1 C:\wamp64\www\CarCenter\system\Common.php(1089): CodeIgniter\View\View->render('cadastro-pessoa...', Array, true)
+#2 C:\wamp64\www\CarCenter\app\Controllers\Home.php(22): view('cadastro-pessoa...')
+#3 C:\wamp64\www\CarCenter\system\CodeIgniter.php(825): App\Controllers\Home->page('cadastro-pessoa...')
+#4 C:\wamp64\www\CarCenter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\CarCenter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\CarCenter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\CarCenter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#8 {main}
+CRITICAL - 2022-06-23 07:04:33 --> Invalid file: Pessoas.php
+#0 C:\wamp64\www\CarCenter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pessoas.php')
+#1 C:\wamp64\www\CarCenter\system\Common.php(1089): CodeIgniter\View\View->render('Pessoas', Array, true)
+#2 C:\wamp64\www\CarCenter\app\Controllers\Home.php(22): view('Pessoas')
+#3 C:\wamp64\www\CarCenter\system\CodeIgniter.php(825): App\Controllers\Home->page('Pessoas')
+#4 C:\wamp64\www\CarCenter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\CarCenter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\CarCenter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\CarCenter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#8 {main}
+CRITICAL - 2022-06-23 07:04:35 --> Invalid file: sair.php
+#0 C:\wamp64\www\CarCenter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sair.php')
+#1 C:\wamp64\www\CarCenter\system\Common.php(1089): CodeIgniter\View\View->render('sair', Array, true)
+#2 C:\wamp64\www\CarCenter\app\Controllers\Home.php(22): view('sair')
+#3 C:\wamp64\www\CarCenter\system\CodeIgniter.php(825): App\Controllers\Home->page('sair')
+#4 C:\wamp64\www\CarCenter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\CarCenter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\CarCenter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\CarCenter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#8 {main}
+CRITICAL - 2022-06-23 07:05:01 --> Invalid file: cadastro-pessoas.php
+#0 C:\wamp64\www\CarCenter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cadastro-pessoa...')
+#1 C:\wamp64\www\CarCenter\system\Common.php(1089): CodeIgniter\View\View->render('cadastro-pessoa...', Array, true)
+#2 C:\wamp64\www\CarCenter\app\Controllers\Home.php(22): view('cadastro-pessoa...')
+#3 C:\wamp64\www\CarCenter\system\CodeIgniter.php(825): App\Controllers\Home->page('cadastro-pessoa...')
+#4 C:\wamp64\www\CarCenter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\CarCenter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\CarCenter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\CarCenter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#8 {main}
+CRITICAL - 2022-06-23 07:18:52 --> Invalid file: public.php
+#0 C:\wamp64\www\CarCenter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public.php')
+#1 C:\wamp64\www\CarCenter\system\Common.php(1089): CodeIgniter\View\View->render('public', Array, true)
+#2 C:\wamp64\www\CarCenter\app\Controllers\Home.php(22): view('public')
+#3 C:\wamp64\www\CarCenter\system\CodeIgniter.php(825): App\Controllers\Home->page('public', 'css', 'cars.png')
+#4 C:\wamp64\www\CarCenter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\CarCenter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\CarCenter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\CarCenter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#8 {main}
+CRITICAL - 2022-06-23 07:19:03 --> Invalid file: public.php
+#0 C:\wamp64\www\CarCenter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public.php')
+#1 C:\wamp64\www\CarCenter\system\Common.php(1089): CodeIgniter\View\View->render('public', Array, true)
+#2 C:\wamp64\www\CarCenter\app\Controllers\Home.php(22): view('public')
+#3 C:\wamp64\www\CarCenter\system\CodeIgniter.php(825): App\Controllers\Home->page('public', 'css', 'cars.png')
+#4 C:\wamp64\www\CarCenter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\CarCenter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\CarCenter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\CarCenter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#8 {main}
+CRITICAL - 2022-06-23 07:19:10 --> Invalid file: public.php
+#0 C:\wamp64\www\CarCenter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public.php')
+#1 C:\wamp64\www\CarCenter\system\Common.php(1089): CodeIgniter\View\View->render('public', Array, true)
+#2 C:\wamp64\www\CarCenter\app\Controllers\Home.php(22): view('public')
+#3 C:\wamp64\www\CarCenter\system\CodeIgniter.php(825): App\Controllers\Home->page('public', 'css', 'cars.png')
+#4 C:\wamp64\www\CarCenter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\CarCenter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\CarCenter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\CarCenter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#8 {main}
+CRITICAL - 2022-06-23 07:20:32 --> Invalid file: cars.png
+#0 C:\wamp64\www\CarCenter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cars.png')
+#1 C:\wamp64\www\CarCenter\system\Common.php(1089): CodeIgniter\View\View->render('cars.png', Array, true)
+#2 C:\wamp64\www\CarCenter\app\Controllers\Home.php(22): view('cars.png')
+#3 C:\wamp64\www\CarCenter\system\CodeIgniter.php(825): App\Controllers\Home->page('cars.png')
+#4 C:\wamp64\www\CarCenter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\CarCenter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\CarCenter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\CarCenter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#8 {main}
+CRITICAL - 2022-06-23 07:21:03 --> Invalid file: cars.png
+#0 C:\wamp64\www\CarCenter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cars.png')
+#1 C:\wamp64\www\CarCenter\system\Common.php(1089): CodeIgniter\View\View->render('cars.png', Array, true)
+#2 C:\wamp64\www\CarCenter\app\Controllers\Home.php(22): view('cars.png')
+#3 C:\wamp64\www\CarCenter\system\CodeIgniter.php(825): App\Controllers\Home->page('cars.png')
+#4 C:\wamp64\www\CarCenter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\CarCenter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\CarCenter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\CarCenter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#8 {main}
+CRITICAL - 2022-06-23 07:30:01 --> Undefined variable: title
+#0 C:\wamp64\www\CarCenter\app\Views\usuarios.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\C...', 3, Array)
+#1 C:\wamp64\www\CarCenter\system\View\View.php(210): include('C:\\wamp64\\www\\C...')
+#2 C:\wamp64\www\CarCenter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\CarCenter\system\Common.php(1089): CodeIgniter\View\View->render('usuarios', Array, true)
+#4 C:\wamp64\www\CarCenter\app\Controllers\Home.php(22): view('usuarios')
+#5 C:\wamp64\www\CarCenter\system\CodeIgniter.php(825): App\Controllers\Home->page('usuarios')
+#6 C:\wamp64\www\CarCenter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\CarCenter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\CarCenter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\CarCenter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#10 {main}
+CRITICAL - 2022-06-23 07:30:11 --> Undefined variable: title
+#0 C:\wamp64\www\CarCenter\app\Views\usuarios.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\C...', 3, Array)
+#1 C:\wamp64\www\CarCenter\system\View\View.php(210): include('C:\\wamp64\\www\\C...')
+#2 C:\wamp64\www\CarCenter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\CarCenter\system\Common.php(1089): CodeIgniter\View\View->render('usuarios', Array, true)
+#4 C:\wamp64\www\CarCenter\app\Controllers\Home.php(22): view('usuarios')
+#5 C:\wamp64\www\CarCenter\system\CodeIgniter.php(825): App\Controllers\Home->page('usuarios')
+#6 C:\wamp64\www\CarCenter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\CarCenter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\CarCenter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\CarCenter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#10 {main}
+CRITICAL - 2022-06-23 07:30:13 --> Undefined variable: title
+#0 C:\wamp64\www\CarCenter\app\Views\usuarios.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\C...', 3, Array)
+#1 C:\wamp64\www\CarCenter\system\View\View.php(210): include('C:\\wamp64\\www\\C...')
+#2 C:\wamp64\www\CarCenter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\CarCenter\system\Common.php(1089): CodeIgniter\View\View->render('usuarios', Array, true)
+#4 C:\wamp64\www\CarCenter\app\Controllers\Home.php(22): view('usuarios')
+#5 C:\wamp64\www\CarCenter\system\CodeIgniter.php(825): App\Controllers\Home->page('usuarios')
+#6 C:\wamp64\www\CarCenter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\CarCenter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\CarCenter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\CarCenter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#10 {main}
+CRITICAL - 2022-06-23 07:30:33 --> Undefined variable: title
+#0 C:\wamp64\www\CarCenter\app\Views\usuarios.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\C...', 3, Array)
+#1 C:\wamp64\www\CarCenter\system\View\View.php(210): include('C:\\wamp64\\www\\C...')
+#2 C:\wamp64\www\CarCenter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\CarCenter\system\Common.php(1089): CodeIgniter\View\View->render('usuarios', Array, true)
+#4 C:\wamp64\www\CarCenter\app\Controllers\Home.php(22): view('usuarios')
+#5 C:\wamp64\www\CarCenter\system\CodeIgniter.php(825): App\Controllers\Home->page('usuarios')
+#6 C:\wamp64\www\CarCenter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\CarCenter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\CarCenter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\CarCenter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#10 {main}
+CRITICAL - 2022-06-23 07:30:57 --> Undefined variable: title
+#0 C:\wamp64\www\CarCenter\app\Views\usuarios.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\C...', 3, Array)
+#1 C:\wamp64\www\CarCenter\system\View\View.php(210): include('C:\\wamp64\\www\\C...')
+#2 C:\wamp64\www\CarCenter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\CarCenter\system\Common.php(1089): CodeIgniter\View\View->render('usuarios', Array, true)
+#4 C:\wamp64\www\CarCenter\app\Controllers\Home.php(22): view('usuarios')
+#5 C:\wamp64\www\CarCenter\system\CodeIgniter.php(825): App\Controllers\Home->page('usuarios')
+#6 C:\wamp64\www\CarCenter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\CarCenter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\CarCenter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\CarCenter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#10 {main}
